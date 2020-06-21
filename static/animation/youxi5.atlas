@@ -1,0 +1,188 @@
+
+youxi5.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+CH_1
+  rotate: false
+  xy: 1229, 2
+  size: 448, 174
+  orig: 448, 174
+  offset: 0, 0
+  index: -1
+CH_2
+  rotate: false
+  xy: 3231, 353
+  size: 448, 174
+  orig: 448, 174
+  offset: 0, 0
+  index: -1
+CH_3
+  rotate: true
+  xy: 3770, 750
+  size: 795, 308
+  orig: 795, 308
+  offset: 0, 0
+  index: -1
+CH_4
+  rotate: false
+  xy: 424, 381
+  size: 816, 346
+  orig: 816, 346
+  offset: 0, 0
+  index: -1
+D_huo
+  rotate: false
+  xy: 1138, 95
+  size: 63, 70
+  orig: 63, 70
+  offset: 0, 0
+  index: -1
+D_shen
+  rotate: false
+  xy: 1138, 167
+  size: 89, 107
+  orig: 89, 107
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00000
+  rotate: false
+  xy: 1138, 276
+  size: 101, 103
+  orig: 101, 103
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00002
+  rotate: false
+  xy: 3770, 446
+  size: 285, 302
+  orig: 285, 302
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00004
+  rotate: false
+  xy: 2520, 173
+  size: 354, 354
+  orig: 354, 354
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00006
+  rotate: false
+  xy: 2876, 181
+  size: 353, 346
+  orig: 353, 346
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00008
+  rotate: false
+  xy: 2, 315
+  size: 380, 380
+  orig: 380, 380
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00010
+  rotate: false
+  xy: 1338, 713
+  size: 404, 404
+  orig: 404, 404
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00012
+  rotate: false
+  xy: 2, 697
+  size: 420, 420
+  orig: 420, 420
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00014
+  rotate: true
+  xy: 2153, 163
+  size: 364, 365
+  orig: 364, 365
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00016
+  rotate: false
+  xy: 1783, 161
+  size: 368, 366
+  orig: 368, 366
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00018
+  rotate: false
+  xy: 762, 11
+  size: 374, 368
+  orig: 374, 368
+  offset: 0, 0
+  index: -1
+Explosion 011 Impact Radial_00020
+  rotate: false
+  xy: 384, 7
+  size: 376, 372
+  orig: 376, 372
+  offset: 0, 0
+  index: -1
+P_you
+  rotate: false
+  xy: 3834, 11
+  size: 189, 433
+  orig: 189, 433
+  offset: 0, 0
+  index: -1
+P_zhong
+  rotate: false
+  xy: 3681, 8
+  size: 151, 436
+  orig: 151, 436
+  offset: 0, 0
+  index: -1
+P_zuo
+  rotate: false
+  xy: 1576, 282
+  size: 205, 429
+  orig: 205, 429
+  offset: 0, 0
+  index: -1
+Y_1
+  rotate: false
+  xy: 424, 729
+  size: 912, 388
+  orig: 912, 388
+  offset: 0, 0
+  index: -1
+Y_2
+  rotate: true
+  xy: 1242, 178
+  size: 533, 332
+  orig: 533, 332
+  offset: 0, 0
+  index: -1
+Y_3
+  rotate: true
+  xy: 3770, 1547
+  size: 497, 319
+  orig: 497, 319
+  offset: 0, 0
+  index: -1
+kuang
+  rotate: false
+  xy: 2, 1119
+  size: 1887, 925
+  orig: 1887, 925
+  offset: 0, 0
+  index: -1
+shui
+  rotate: false
+  xy: 1891, 529
+  size: 1877, 630
+  orig: 1877, 630
+  offset: 0, 0
+  index: -1
+tian
+  rotate: false
+  xy: 1891, 1161
+  size: 1877, 883
+  orig: 1877, 883
+  offset: 0, 0
+  index: -1
