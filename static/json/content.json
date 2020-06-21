@@ -1,199 +1,195 @@
 {
-    "startPage":{
-        
-    },
-    "endPage":{
-
-    },
-    "common":{
-        "clickAudio":{
-            "name":"audio_click"
+  "startPage": {},
+  "endPage": {},
+  "common": {
+    "clickAudio": {
+      "name": "audio_click"
+    }
+  },
+  "sources": [
+    {
+      "bg": {
+        "image": {
+          "name": "image_bg",
+          "x": 0,
+          "y": 0
         }
-    },
-    "sources":[
-       {
-           "bg":{
-               "image":{
-                    "name":"image_bg",
-                    "x":0,
-                    "y":0
-               }
-           },
-           "stem":{
-
-           },
-           "option":[
-              {
-                "image":{
-                    "name":"image_doll1",
-                    "x":0,
-                    "y":0,
-                    "componentName":"doll_1"
-                }
-              },
-              {
-                "image":{
-                    "name":"image_doll2",
-                    "x":0,
-                    "y":0,
-                    "componentName":"doll_2"
-                }
-              },
-              {
-                "image":{
-                    "name":"image_sister1",
-                    "x":0,
-                    "y":0,
-                    "componentName":"sister_1"
-                }
-              },
-              {
-                "image":{
-                    "name":"image_sister2",
-                    "x":0,
-                    "y":0,
-                    "componentName":"sister_2"
-                }
-              },
-              {
-                "image":{
-                    "name":"image_mouth1",
-                    "x":0,
-                    "y":0,
-                    "componentName":"mouth_1"
-                }
-              },
-              {
-                "image":{
-                    "name":"image_mouth2",
-                    "x":0,
-                    "y":0,
-                    "componentName":"mouth_2"
-                }
-              },
-              {
-                "image":{
-                    "name":"image_nine1",
-                    "x":0,
-                    "y":0,
-                    "componentName":"nine_1"
-                }
-              },
-              {
-                "image":{
-                    "name":"image_nine2",
-                    "x":0,
-                    "y":0,
-                    "componentName":"nine_2"
-                }
-              }
-           ],
-           "option1":[
-                {
-                "image":{
-                    "name":"image_doll1",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"doll_1"
-                },
-                "rightAudio":{
-                    "name":"audio_doll",
-                    "loop":false,
-                    "volume":1
-                }
-               },
-               {
-                "image":{
-                    "name":"image_doll2",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"doll_2"
-                },
-                "rightAudio":{
-                    "name":"audio_doll",
-                    "loop":false,
-                    "volume":1
-                }
-               },
-               {
-                "image":{
-                    "name":"image_sister1",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"sister_1"
-                },
-                "rightAudio":{
-                    "name":"audio_sister",
-                    "loop":false,
-                    "volume":1
-                }
-               },
-               {
-                "image":{
-                    "name":"image_sister2",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"sister_2"
-                },
-                "rightAudio":{
-                    "name":"audio_sister",
-                    "loop":false,
-                    "volume":1
-                }
-               },
-               {
-                "image":{
-                    "name":"image_nine1",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"nine_1"
-                },
-                "rightAudio":{
-                    "name":"",
-                    "loop":false,
-                    "volume":1
-                }
-               },
-               {
-                "image":{
-                    "name":"image_nine2",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"nine_2"
-                },
-                "rightAudio":{
-                    "name":"",
-                    "loop":false,
-                    "volume":1
-                }
-               },
-               {
-                "image":{
-                    "name":"image_mouth1",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"mouth1"
-                },
-                "rightAudio":{
-                    "name":"audio_mouth",
-                    "loop":false,
-                    "volume":1
-                }
-               },
-               {
-                "image":{
-                    "name":"image_mouth2",
-                    "x":1500,
-                    "y":580,
-                    "componentName":"mouth_2"
-                },
-                "rightAudio":{
-                    "name":"audio_mouth",
-                    "loop":false,
-                    "volume":1
-                }
-               }
-           ]
-       } 
-    ]
+      },
+      "stem": {
+        "text":"Match the words with the pictures."
+      },
+      "option": [
+        {
+          "image": {
+            "name": "image_nine1",
+            "x": 0,
+            "y": 0,
+            "componentName": "nine_1"
+          }
+        },
+        {
+          "image": {
+            "name": "image_nine2",
+            "x": 0,
+            "y": 0,
+            "componentName": "nine_2"
+          }
+        },
+        {
+          "image": {
+            "name": "image_doll1",
+            "x": 0,
+            "y": 0,
+            "componentName": "doll_1"
+          }
+        },
+        {
+          "image": {
+            "name": "image_doll2",
+            "x": 0,
+            "y": 0,
+            "componentName": "doll_2"
+          }
+        },
+        {
+          "image": {
+            "name": "image_sister1",
+            "x": 0,
+            "y": 0,
+            "componentName": "sister_1"
+          }
+        },
+        {
+          "image": {
+            "name": "image_sister2",
+            "x": 0,
+            "y": 0,
+            "componentName": "sister_2"
+          }
+        },
+        {
+          "image": {
+            "name": "image_mouth1",
+            "x": 0,
+            "y": 0,
+            "componentName": "mouth_1"
+          }
+        },
+        {
+          "image": {
+            "name": "image_mouth2",
+            "x": 0,
+            "y": 0,
+            "componentName": "mouth_2"
+          }
+        }
+      ],
+      "option1": [
+        {
+          "image": {
+            "name": "image_doll1",
+            "x": 1500,
+            "y": 580,
+            "componentName": "doll_1"
+          },
+          "rightAudio": {
+            "name": "audio_doll",
+            "loop": false,
+            "volume": 1
+          }
+        },
+        {
+          "image": {
+            "name": "image_doll2",
+            "x": 1500,
+            "y": 580,
+            "componentName": "doll_2"
+          },
+          "rightAudio": {
+            "name": "audio_doll",
+            "loop": false,
+            "volume": 1
+          }
+        },
+        {
+          "image": {
+            "name": "image_sister1",
+            "x": 1500,
+            "y": 580,
+            "componentName": "sister_1"
+          },
+          "rightAudio": {
+            "name": "audio_sister",
+            "loop": false,
+            "volume": 1
+          }
+        },
+        {
+          "image": {
+            "name": "image_sister2",
+            "x": 1500,
+            "y": 580,
+            "componentName": "sister_2"
+          },
+          "rightAudio": {
+            "name": "audio_sister",
+            "loop": false,
+            "volume": 1
+          }
+        },
+        {
+          "image": {
+            "name": "image_nine1",
+            "x": 1500,
+            "y": 580,
+            "componentName": "nine_1"
+          },
+          "rightAudio": {
+            "name": "",
+            "loop": false,
+            "volume": 1
+          }
+        },
+        {
+          "image": {
+            "name": "image_nine2",
+            "x": 1500,
+            "y": 580,
+            "componentName": "nine_2"
+          },
+          "rightAudio": {
+            "name": "",
+            "loop": false,
+            "volume": 1
+          }
+        },
+        {
+          "image": {
+            "name": "image_mouth1",
+            "x": 1500,
+            "y": 580,
+            "componentName": "mouth1"
+          },
+          "rightAudio": {
+            "name": "audio_mouth",
+            "loop": false,
+            "volume": 1
+          }
+        },
+        {
+          "image": {
+            "name": "image_mouth2",
+            "x": 1500,
+            "y": 580,
+            "componentName": "mouth_2"
+          },
+          "rightAudio": {
+            "name": "audio_mouth",
+            "loop": false,
+            "volume": 1
+          }
+        }
+      ]
+    }
+  ]
 }

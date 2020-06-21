@@ -13,7 +13,6 @@ function createSprite(texture) {
  * @param {*} resourceStr 
  */
 function getTexture(resourceStr) {
-    // console.log("当前图片资源域状态：",res[resourceStr].data.src,window.location.origin)
     return res[resourceStr].texture;
 }
 
@@ -25,11 +24,9 @@ function getTexture(resourceStr) {
 */
 function createAudioByRes(audio){
     let sound = typeof audio === "string" ? res[audio].sound : res[audio.name].sound;
-    // sound.loop = audio.loop;
-    // sound.volume = audio.volume;
     return sound;
 }
-  
+
 /**
  *创建图片
 *
@@ -125,6 +122,46 @@ function alignCenter(obj){
     obj.lockY = obj.y;
     return obj;
 }
+
+function createMask() {
+    if(!stage.getChildByName("mask")){
+      let mask = new PIXI.Graphics();
+      mask.name = "mask";
+      mask.beginFill(0x000000, 0)
+      mask.drawRect(0, 0, 1920, 1080);
+      mask.endFill();
+      stage.addChild(mask)
+      mask.interactive = true;
+    }
+    stage.getChildByName("mask").interactive = true;
+    stage.setChildIndex(stage.getChildByName("mask"), stage.children.length - 1);
+    return stage.getChildByName("mask");
+  }
+  
+  function hideMask(){
+    let mask = stage.getChildByName("mask");
+    if(mask){
+      // stage.setChildIndex(mask,1)
+      mask.interactive = false;
+    }
+  }
+  /**
+ *创建文字
+  *
+  * @param {*} string  content.json的image对象
+  * @param {*} data  
+  * @returns 文字实例
+  */
+function createText(string,data) { 
+  let text;
+  if (data&&data.style) {
+      text = new PIXI.Text(string, new PIXI.TextStyle(data.style));
+  } else {
+      text = new PIXI.Text(string);
+  }
+  return text;
+}
+
 export {
     getTexture,
     createImage,
@@ -132,5 +169,8 @@ export {
     createAnimation,
     createAnimationByRes,
     createAudioByRes,
-    alignCenter
+    alignCenter,
+    createMask,
+    hideMask,
+    createText
 }

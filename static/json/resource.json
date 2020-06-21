@@ -4,6 +4,14 @@
         "path":"./static/images/bg.jpg"
     },
     {
+        "key":"image_progress",
+        "path":"./static/images/progress.png"
+    },
+    {
+        "key":"image_progressBg",
+        "path":"./static/images/progressBg.png"
+    },
+    {
         "key":"image_doll1",
         "path":"./static/images/doll1.png"
     },
