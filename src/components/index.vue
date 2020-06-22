@@ -28,6 +28,11 @@ export default {
   },
   mounted(){
     let app = this.createApp();
+    // app.ticker.stop();
+    // window.ctr = new AnimationFrame(60,()=>{
+    //   app.renderer.render(app.stage)
+    // })
+    // ctr.start()
     app.view.style.width = '19.2rem';
     app.view.style.height = '10.8rem';
     app.view.id = 'appCanvas';

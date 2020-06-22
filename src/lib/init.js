@@ -1,5 +1,5 @@
 import * as PIXI from  'pixi.js'
-import {createImageByRes, createImage, alignCenter, getTexture, createAudioByRes, createMask, hideMask} from './util/util';
+import {createImageByRes, createImage, alignCenter, getTexture, createAudioByRes, createMask, hideMask, createAnimation} from './util/util';
 import { TweenMax } from 'gsap';
 
 export default class Init {
@@ -16,6 +16,9 @@ export default class Init {
         console.log(this.res)
         this.dataInit();
         this.sceneInit();
+        let kaishi = createAnimation("animation_kaishi");
+        kaishi.state.setAnimation(0,"idle",true);
+        this.stage.addChild(kaishi)
         this.startIn();
     }
     startIn(){
