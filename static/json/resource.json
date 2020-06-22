@@ -4,14 +4,6 @@
         "path":"./static/images/bg.jpg"
     },
     {
-        "key":"image_progress",
-        "path":"./static/images/progress.png"
-    },
-    {
-        "key":"image_progressBg",
-        "path":"./static/images/progressBg.png"
-    },
-    {
         "key":"image_doll1",
         "path":"./static/images/doll1.png"
     },
@@ -36,6 +28,10 @@
         "path":"./static/images/nine2.png"
     },
     {
+        "key":"image_texture",
+        "path":"./static/images/texture.json"
+    },
+    {
         "key":"image_option_click",
         "path":"./static/images/option_click.png"
     },
@@ -50,30 +46,6 @@
     {
         "key":"image_sister2",
         "path":"./static/images/sister2.png"
-    },
-    {
-        "key":"image_star_1",
-        "path":"./static/images/star_1.png"
-    },
-    {
-        "key":"image_star_2",
-        "path":"./static/images/star_2.png"
-    },
-    {
-        "key":"image_star_3",
-        "path":"./static/images/star_3.png"
-    },
-    {
-        "key":"image_star_1_light",
-        "path":"./static/images/star_1_light.png"
-    },
-    {
-        "key":"image_star_2_light",
-        "path":"./static/images/star_2_light.png"
-    },
-    {
-        "key":"image_star_3_light",
-        "path":"./static/images/star_3_light.png"
     },
     {
         "key":"animation_give_me_five",

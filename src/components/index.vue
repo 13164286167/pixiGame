@@ -7,7 +7,8 @@
 <script>
 
 import {load} from '../../static/js/loader.js';
-import Init from '../lib/init'
+import Init from '../lib/init';
+import AnimationFrame from './animationFrame'
 export default {
   name: 'index',
   data () {
@@ -23,13 +24,14 @@ export default {
           autoSize: true,
           transparent: true //背景是否设为透明
       })
-  },
+    }
   },
   mounted(){
     let app = this.createApp();
     app.view.style.width = '19.2rem';
     app.view.style.height = '10.8rem';
     app.view.id = 'appCanvas';
+    window.app = app;
     window.stage = app.stage;
     this.$refs.canvas.appendChild(app.view);
     stage.interactive = true;
@@ -54,4 +56,10 @@ export default {
     height: 10.80rem;
     transform: translate(-50%, -50%);
   }
+  @font-face{
+     /* font-family: '字体名称随便起'; 
+     src:url('../font/字体名称.woff') format('woff'),
+         url('../font/字体名称.ttf') format('truetype'),
+         url('../font/字体名称.svg') format('svg'); */
+}
 </style>

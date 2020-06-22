@@ -1,6 +1,7 @@
 import * as PIXI from  'pixi.js'
 import {createImageByRes, createImage, alignCenter, getTexture, createAudioByRes, createMask, hideMask} from './util/util';
 import { TweenMax } from 'gsap';
+
 export default class Init {
     constructor(app,res){
         this.source = null;
@@ -31,9 +32,11 @@ export default class Init {
     }
 
     sceneInit(){
-        this.newGame()
+        this.newGame();
         this.optionInit();
         this.stemInit();
+        // let a = new PIXI.Sprite(res["image_texture"].textures["blob.png"]);
+        // this.page.addChild(a)
     }
     stemInit(){
         let text = new PIXI.Text(this.source.stem.text,);
