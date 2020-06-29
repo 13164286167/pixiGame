@@ -1,0 +1,195 @@
+
+lily_party.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: true
+  xy: 1586, 180
+  size: 87, 120
+  orig: 87, 120
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: true
+  xy: 1835, 338
+  size: 36, 196
+  orig: 36, 196
+  offset: 0, 0
+  index: -1
+black1
+  rotate: false
+  xy: 1708, 232
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+blue1
+  rotate: true
+  xy: 2, 18
+  size: 490, 535
+  orig: 490, 535
+  offset: 0, 0
+  index: -1
+blue2
+  rotate: true
+  xy: 778, 7
+  size: 55, 112
+  orig: 55, 112
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 1072, 324
+  size: 184, 462
+  orig: 184, 462
+  offset: 0, 0
+  index: -1
+closeeyes
+  rotate: true
+  xy: 1521, 171
+  size: 151, 63
+  orig: 151, 63
+  offset: 0, 0
+  index: -1
+cyan1
+  rotate: true
+  xy: 1536, 334
+  size: 174, 297
+  orig: 174, 297
+  offset: 0, 0
+  index: -1
+cyan2
+  rotate: true
+  xy: 892, 25
+  size: 37, 66
+  orig: 37, 66
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 1993, 288
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 1072, 61
+  size: 261, 273
+  orig: 261, 273
+  offset: 0, 0
+  index: -1
+faqia
+  rotate: false
+  xy: 778, 64
+  size: 180, 107
+  orig: 180, 107
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 1739, 281
+  size: 51, 105
+  orig: 51, 105
+  offset: 0, 0
+  index: -1
+hairlight
+  rotate: true
+  xy: 960, 35
+  size: 136, 97
+  orig: 136, 97
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 1667, 76
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+laugheyes
+  rotate: false
+  xy: 1586, 269
+  size: 151, 63
+  orig: 151, 63
+  offset: 0, 0
+  index: -1
+liuhai
+  rotate: false
+  xy: 1835, 376
+  size: 186, 132
+  orig: 186, 132
+  offset: 0, 0
+  index: -1
+maozi
+  rotate: true
+  xy: 539, 4
+  size: 167, 237
+  orig: 167, 237
+  offset: 0, 0
+  index: -1
+mawei1
+  rotate: true
+  xy: 1667, 127
+  size: 51, 49
+  orig: 51, 49
+  offset: 0, 0
+  index: -1
+mawei2
+  rotate: false
+  xy: 1347, 68
+  size: 172, 254
+  orig: 172, 254
+  offset: 0, 0
+  index: -1
+mei
+  rotate: false
+  xy: 1708, 199
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: false
+  xy: 1920, 289
+  size: 71, 47
+  orig: 71, 47
+  offset: 0, 0
+  index: -1
+mouth2
+  rotate: false
+  xy: 2, 2
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+purple1
+  rotate: true
+  xy: 539, 173
+  size: 335, 531
+  orig: 335, 531
+  offset: 0, 0
+  index: -1
+purple2
+  rotate: false
+  xy: 1610, 66
+  size: 55, 112
+  orig: 55, 112
+  offset: 0, 0
+  index: -1
+xin
+  rotate: true
+  xy: 1846, 267
+  size: 69, 72
+  orig: 69, 72
+  offset: 0, 0
+  index: -1
+yigou
+  rotate: true
+  xy: 1521, 66
+  size: 103, 87
+  orig: 103, 87
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+lily.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: false
+  xy: 930, 390
+  size: 87, 120
+  orig: 87, 120
+  offset: 0, 0
+  index: -1
+arm2
+  rotate: true
+  xy: 188, 2
+  size: 59, 198
+  orig: 59, 198
+  offset: 0, 0
+  index: -1
+arm3
+  rotate: false
+  xy: 451, 238
+  size: 155, 138
+  orig: 155, 138
+  offset: 0, 0
+  index: -1
+black1
+  rotate: false
+  xy: 52, 11
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 48
+  size: 184, 462
+  orig: 184, 462
+  offset: 0, 0
+  index: -1
+closeeyes
+  rotate: false
+  xy: 777, 447
+  size: 151, 63
+  orig: 151, 63
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: true
+  xy: 2, 2
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+face
+  rotate: false
+  xy: 188, 237
+  size: 261, 273
+  orig: 261, 273
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 639, 360
+  size: 51, 105
+  orig: 51, 105
+  offset: 0, 0
+  index: -1
+hairlight
+  rotate: false
+  xy: 639, 413
+  size: 136, 97
+  orig: 136, 97
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 608, 235
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+laugheyes
+  rotate: false
+  xy: 777, 382
+  size: 151, 63
+  orig: 151, 63
+  offset: 0, 0
+  index: -1
+liuhai
+  rotate: false
+  xy: 451, 378
+  size: 186, 132
+  orig: 186, 132
+  offset: 0, 0
+  index: -1
+mawei1
+  rotate: false
+  xy: 388, 12
+  size: 51, 49
+  orig: 51, 49
+  offset: 0, 0
+  index: -1
+mawei2
+  rotate: true
+  xy: 188, 63
+  size: 172, 254
+  orig: 172, 254
+  offset: 0, 0
+  index: -1
+mei
+  rotate: false
+  xy: 88, 15
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+mouth1
+  rotate: true
+  xy: 679, 287
+  size: 71, 47
+  orig: 71, 47
+  offset: 0, 0
+  index: -1
+mouth2
+  rotate: true
+  xy: 746, 373
+  size: 38, 14
+  orig: 38, 14
+  offset: 0, 0
+  index: -1
+xin
+  rotate: false
+  xy: 608, 286
+  size: 69, 72
+  orig: 69, 72
+  offset: 0, 0
+  index: -1

@@ -18,6 +18,7 @@ export default {
   },
   methods:{
     createApp() {
+      PIXI.ticker
       return new PIXI.Application({
           width: 1920,
           height :1080,
@@ -62,7 +63,7 @@ export default {
     transform: translate(-50%, -50%);
   }
   @font-face{
-     /* font-family: '字体名称随便起'; 
+     /* font-family: '字体名称随便起';
      src:url('../font/字体名称.woff') format('woff'),
          url('../font/字体名称.ttf') format('truetype'),
          url('../font/字体名称.svg') format('svg'); */

@@ -4,18 +4,16 @@ export default class AnimationFrame {
       this.fps = fps;
       this.animate = animate;
     }
-  
+
     start() {
       let then = performance.now();
       console.log(this.fps)
-    
       const tolerance = 0.1;
-  
       let animateLoop = (now) => {
         let interval = 1000 / this.fps;
         this.requestID = requestAnimationFrame(animateLoop);
         let delta = now - then;
-  
+
         if (delta >= interval - tolerance) {
           then = now - (delta % interval);
           this.animate(delta);
@@ -23,7 +21,7 @@ export default class AnimationFrame {
       };
       this.requestID = requestAnimationFrame(animateLoop);
     }
-  
+
     stop() {
       cancelAnimationFrame(this.requestID);
     }

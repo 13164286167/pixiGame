@@ -56,6 +56,14 @@
         "path":"./static/animation/kaishi.json"
     },
     {
+        "key":"animation_lily",
+        "path":"./static/animation/lily.json"
+    },
+    {
+        "key":"animation_lily_party",
+        "path":"./static/animation/lily_party.json"
+    },
+    {
         "key":"audio_click",
         "path":"./static/audios/click.mp3"
     },
