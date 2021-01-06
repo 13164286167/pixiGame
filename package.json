@@ -10,7 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "gsap": "^3.3.4",
     "pixi-sound": "^2.0.4",
     "pixi-spine": "^1.5.16",
