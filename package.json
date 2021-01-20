@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "gsap": "^3.3.4",
+    "gsap": "^3.6.0",
     "pixi-sound": "^2.0.4",
     "pixi-spine": "^1.5.16",
     "pixi.js": "^4.8.1",
